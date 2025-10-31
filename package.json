@@ -7,9 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "create:github": "node scripts/create-github-repo.mjs"
   },
   "dependencies": {
+    "@octokit/rest": "^21.0.2",
     "date-fns": "^3.3.1",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
